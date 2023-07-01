@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gee's Clippers</title>
+    <style>
+      /* General Styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      /* Carousel Styles */
+      .carousel-item {
+        height: 400px;
+        background-image: url("https://www.jsonline.com/gcdn/-mm-/ae7207156bcf5cbd60d286a2b27a37812baea9f9/c=0-299-4890-3062/local/-/media/2018/03/11/WIGroup/Milwaukee/636564061684936060-MJS-MLK-Gees-3-65904028.JPG?width=3200&height=1809&fit=crop&format=pjpg&auto=webp");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      }
+
+      .carousel-content {
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .carousel-content h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      .carousel-content p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .carousel-content .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff8300;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .carousel-content .btn:hover {
+        background-color: #ff6f00;
+      }
+
+      /* Additional Styles */
+      h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+      }
+
+      .features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+
+      .feature {
+        flex-basis: calc(33.33% - 20px);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+
+      .feature:hover {
+        transform: translateY(-5px);
+      }
+
+      .feature h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .feature p {
+        font-size: 16px;
+        color: #666;
+      }
+
+      /* Button Styles */
+      .btn-walk-in {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn-walk-in:hover {
+        background-color: #222;
+      }
+
+      /* Footer Styles */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="carousel-item">
+        <div class="container carousel-content">
+          <h1>Welcome to Gee's Clippers</h1>
+          <p>
+            Experience the finest grooming services with our skilled barbers.
+          </p>
+          <a href="#" class="btn">Book an Appointment Today</a>
+          <a href="#" class="btn-walk-in">Walk-In Barbers</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="features">
+      <div class="container">
+        <h2>Why Choose Us?</h2>
+        <div class="feature">
+          <h3>Professional Barbers</h3>
+          <p>
+            Our barbers are highly trained and experienced in various hair
+            cutting styles.
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Relaxing Atmosphere</h3>
+          <p>
+            Enjoy a comfortable and welcoming environment during your visit.
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Premium Products</h3>
+          <p>
+            We use top-quality grooming products to ensure the best results for
+            your hair and skin.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2023 Gee's Clippers. All rights reserved. |
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
